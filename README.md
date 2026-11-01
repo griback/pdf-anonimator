@@ -2,7 +2,9 @@
 
 Repositório público: [griback/pdf-anonimator](https://github.com/griback/pdf-anonimator). Titular: **griback**. Licença: **GNU AGPL-3.0-only**.
 
-Aplicativo desktop para remover texto e áreas visuais de PDFs com processamento local. Interface em **Português** e **English**, selecionável no topo da janela. Não envia documentos à internet.
+Aplicativo desktop inicialmente concebido para ajudar o usuário a anonimizar documentos pessoais em PDF antes de utilizá-los no **ChatGPT, Gemini, Claude e outras ferramentas de inteligência artificial**. O objetivo é reduzir a exposição de dados pessoais ao preparar documentos para análise, resumo ou outras tarefas com IA.
+
+A remoção de texto e áreas visuais é feita localmente, no computador do usuário. Interface em **Português** e **English**, selecionável no topo da janela. O aplicativo não envia documentos à internet; o usuário decide se e onde compartilhar o PDF resultante após revisá-lo.
 
 ## Uso
 
@@ -43,6 +45,8 @@ Copyright (C) 2026 griback. Este projeto é software livre sob a **GNU Affero Ge
 O PyMuPDF é utilizado sob sua opção AGPL. Consulte [NOTICE](NOTICE), [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) e [a documentação da dependência](https://pymupdf.readthedocs.io/en/latest/about.html). O estado da publicação está em [PUBLICACAO.md](PUBLICACAO.md).
 
 ## English
+
+Originally conceived to help users redact personal PDF documents before using them with **ChatGPT, Gemini, Claude and other AI tools**. The goal is to reduce personal data exposure when preparing documents for analysis, summarization or other AI tasks. Processing takes place locally; the app does not upload documents. Users decide whether and where to share the resulting PDF after reviewing it.
 
 Local desktop PDF redaction tool with a Portuguese/English interface. Select a PDF, enter terms or enable Brazilian CPF/email/phone detection, review every page, mark additional areas and save to a new PDF. No OCR is included; scanned documents require visual redaction. Always review the resulting PDF visually. Reports include sensitive search terms and paths.
 
