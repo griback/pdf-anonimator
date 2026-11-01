@@ -1,13 +1,17 @@
 @echo off
 setlocal
 cd /d "%~dp0"
-python -m pip install --upgrade pip
-python -m pip install -r requirements.txt
-python -m PyInstaller --noconfirm --clean --onefile --windowed --name AnonimizadorPDF_v3 anonimizador_pdf.py
-if exist "dist\AnonimizadorPDF_v3.exe" (
- echo.
- echo OK: dist\AnonimizadorPDF_v3.exe
-) else (
- echo ERRO: o executavel nao foi criado.
-)
+if not exist ".venv\Scripts\python.exe" py -3 -m venv .venv
+if errorlevel 1 goto erro
+".venv\Scripts\python.exe" -m pip install -r requirements-build.txt
+if errorlevel 1 goto erro
+".venv\Scripts\python.exe" -m unittest discover -s tests -v
+if errorlevel 1 goto erro
+".venv\Scripts\python.exe" build.py
+if errorlevel 1 goto erro
 pause
+exit /b 0
+:erro
+echo ERRO: a geracao foi interrompida. Verifique a mensagem acima.
+pause
+exit /b 1
