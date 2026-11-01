@@ -6,6 +6,6 @@
 - Execute `python -m unittest discover -s tests -v`. Alterações na remoção de conteúdo devem incluir testes com PDFs sintéticos.
 - Faça revisão manual da interface nos dois idiomas quando alterar a janela.
 - Não envie PDFs reais, relatórios pessoais, executáveis, tokens ou senhas.
-- A licença ainda será definida pelo titular antes de abrir o projeto a contribuições públicas.
+- O projeto usa AGPL-3.0-only. Ao enviar contribuições, disponibilize-as sob a mesma licença e preserve os avisos de autoria e de terceiros.
 
-English: use synthetic data only, keep pull requests focused, preserve offline processing and both UI languages, and run the test suite above. Do not submit private PDFs, reports, binaries or credentials. The owner must choose a license before public contributions begin.
+English: use synthetic data only, keep pull requests focused, preserve offline processing and both UI languages, and run the test suite above. Do not submit private PDFs, reports, binaries or credentials. Contributions must be available under AGPL-3.0-only; preserve copyright and third-party notices.

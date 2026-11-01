@@ -11,4 +11,5 @@
 - Versões novas: atualizar `version.py` e `CHANGELOG.md`; gerar EXE e SHA-256 em `dist/`. Preserve o EXE v3 original. Não versionar `dist/` ou `build/`.
 - Antes de entregar: rodar testes, verificar mudanças com Git e informar o que foi validado e o que ainda depende de revisão manual.
 - Publicações: entregar executável e fonte correspondente juntos em GitHub Releases; somente criar tag/release quando solicitado.
-- A publicação inicial depende da confirmação de autoria/licença e da definição do repositório. Consulte `PUBLICACAO.md` para o estado atual.
+- Titular e conta GitHub: `griback`. Nome confirmado: `pdf-anonimator`. O usuário confirmou autoria, autorização de publicação pública e pediu licença livre; adotada AGPL-3.0-only. Preserve `LICENSE`, `NOTICE` e os avisos de terceiros.
+- A publicação pública está autorizada neste destino; a autenticação GitHub ainda precisa estar disponível. Consulte `PUBLICACAO.md` para o estado atual. Não solicitar novamente informações já confirmadas.

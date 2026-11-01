@@ -6,7 +6,8 @@
 - Versão centralizada, compilação com nome por versão e checksum SHA-256.
 - Proteção contra sobrescrever o original também na função de processamento.
 - Testes com PDFs sintéticos, documentação de manutenção e configuração de validação/compilação no GitHub Actions.
-- Histórico Git inicial; publicação e licença pendentes.
+- Histórico Git inicial; destino público confirmado: `griback/pdf-anonimator`.
+- Licença livre AGPL-3.0-only, aviso de autoria e índice de licenças de terceiros. Envio ao GitHub pendente de autenticação.
 
 ## v3 — versão recebida
 

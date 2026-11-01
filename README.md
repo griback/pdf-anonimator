@@ -1,5 +1,7 @@
 # Anonimizador Local de PDF
 
+Nome do repositório: **pdf-anonimator**. Titular: **griback**. Licença: **GNU AGPL-3.0-only**.
+
 Aplicativo desktop para remover texto e áreas visuais de PDFs com processamento local. Interface em **Português** e **English**, selecionável no topo da janela. Não envia documentos à internet.
 
 ## Uso
@@ -34,10 +36,16 @@ Use o Codex aberto nesta pasta para solicitar correções e versões. As instru�
 
 Veja [CONTRIBUTING.md](CONTRIBUTING.md) e [PUBLICACAO.md](PUBLICACAO.md). `dist/`, PDFs, relatórios e ambientes locais ficam fora do Git. Executáveis devem ser distribuídos em Releases com a versão exata do fonte e o checksum.
 
-**Licença do projeto pendente de definição pelo titular.** O PyMuPDF declara licença AGPL ou comercial; consulte [a documentação da dependência](https://pymupdf.readthedocs.io/en/latest/about.html). Este repositório ainda não está publicado e não tem licença de código aberto concedida.
+## Licença
+
+Copyright (C) 2026 griback. Este projeto é software livre sob a **GNU Affero General Public License versão 3 (AGPL-3.0-only)**. Você pode usar, estudar, modificar e redistribuir o programa nos termos da [licença integral](LICENSE), incluindo as obrigações de disponibilizar o código-fonte correspondente quando aplicáveis. O programa é fornecido sem garantia.
+
+O PyMuPDF é utilizado sob sua opção AGPL. Consulte [NOTICE](NOTICE), [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) e [a documentação da dependência](https://pymupdf.readthedocs.io/en/latest/about.html). O destino confirmado para publicação é `griback/pdf-anonimator`; o estado da conexão e do envio está em [PUBLICACAO.md](PUBLICACAO.md).
 
 ## English
 
 Local desktop PDF redaction tool with a Portuguese/English interface. Select a PDF, enter terms or enable Brazilian CPF/email/phone detection, review every page, mark additional areas and save to a new PDF. No OCR is included; scanned documents require visual redaction. Always review the resulting PDF visually. Reports include sensitive search terms and paths.
 
-Use Python 3.14, install `requirements.txt`, then run `python anonimizador_pdf.py`. Run tests with `python -m unittest discover -s tests -v`. Build on Windows using `requirements-build.txt` and `python build.py`. The project license and initial public repository are pending owner confirmation.
+Use Python 3.14, install `requirements.txt`, then run `python anonimizador_pdf.py`. Run tests with `python -m unittest discover -s tests -v`. Build on Windows using `requirements-build.txt` and `python build.py`.
+
+Copyright (C) 2026 griback. Licensed under GNU AGPL version 3 only; see [LICENSE](LICENSE). Provided without warranty. Third-party terms are listed in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Intended public repository: `griback/pdf-anonimator`; see [PUBLICACAO.md](PUBLICACAO.md) for publication status.
