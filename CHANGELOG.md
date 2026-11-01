@@ -7,7 +7,7 @@
 - Proteção contra sobrescrever o original também na função de processamento.
 - Testes com PDFs sintéticos, documentação de manutenção e configuração de validação/compilação no GitHub Actions.
 - Histórico Git inicial; destino público confirmado: `griback/pdf-anonimator`.
-- Licença livre AGPL-3.0-only, aviso de autoria e índice de licenças de terceiros. Envio ao GitHub pendente de autenticação.
+- Licença livre AGPL-3.0-only, aviso de autoria e índice de licenças de terceiros. Repositório público criado e fonte enviado ao GitHub.
 
 ## v3 — versão recebida
 

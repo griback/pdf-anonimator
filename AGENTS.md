@@ -12,4 +12,4 @@
 - Antes de entregar: rodar testes, verificar mudanças com Git e informar o que foi validado e o que ainda depende de revisão manual.
 - Publicações: entregar executável e fonte correspondente juntos em GitHub Releases; somente criar tag/release quando solicitado.
 - Titular e conta GitHub: `griback`. Nome confirmado: `pdf-anonimator`. O usuário confirmou autoria, autorização de publicação pública e pediu licença livre; adotada AGPL-3.0-only. Preserve `LICENSE`, `NOTICE` e os avisos de terceiros.
-- A publicação pública está autorizada neste destino; a autenticação GitHub ainda precisa estar disponível. Consulte `PUBLICACAO.md` para o estado atual. Não solicitar novamente informações já confirmadas.
+- Repositório público criado e fonte publicado em `https://github.com/griback/pdf-anonimator`; remoto `origin`, branch `main`. Autenticação local pelo Git Credential Manager concluída. Consulte `PUBLICACAO.md` para o estado atual. Não solicitar novamente informações já confirmadas.

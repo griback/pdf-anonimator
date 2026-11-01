@@ -1,6 +1,6 @@
 # Anonimizador Local de PDF
 
-Nome do repositório: **pdf-anonimator**. Titular: **griback**. Licença: **GNU AGPL-3.0-only**.
+Repositório público: [griback/pdf-anonimator](https://github.com/griback/pdf-anonimator). Titular: **griback**. Licença: **GNU AGPL-3.0-only**.
 
 Aplicativo desktop para remover texto e áreas visuais de PDFs com processamento local. Interface em **Português** e **English**, selecionável no topo da janela. Não envia documentos à internet.
 
@@ -40,7 +40,7 @@ Veja [CONTRIBUTING.md](CONTRIBUTING.md) e [PUBLICACAO.md](PUBLICACAO.md). `dist/
 
 Copyright (C) 2026 griback. Este projeto é software livre sob a **GNU Affero General Public License versão 3 (AGPL-3.0-only)**. Você pode usar, estudar, modificar e redistribuir o programa nos termos da [licença integral](LICENSE), incluindo as obrigações de disponibilizar o código-fonte correspondente quando aplicáveis. O programa é fornecido sem garantia.
 
-O PyMuPDF é utilizado sob sua opção AGPL. Consulte [NOTICE](NOTICE), [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) e [a documentação da dependência](https://pymupdf.readthedocs.io/en/latest/about.html). O destino confirmado para publicação é `griback/pdf-anonimator`; o estado da conexão e do envio está em [PUBLICACAO.md](PUBLICACAO.md).
+O PyMuPDF é utilizado sob sua opção AGPL. Consulte [NOTICE](NOTICE), [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) e [a documentação da dependência](https://pymupdf.readthedocs.io/en/latest/about.html). O estado da publicação está em [PUBLICACAO.md](PUBLICACAO.md).
 
 ## English
 
@@ -48,4 +48,4 @@ Local desktop PDF redaction tool with a Portuguese/English interface. Select a P
 
 Use Python 3.14, install `requirements.txt`, then run `python anonimizador_pdf.py`. Run tests with `python -m unittest discover -s tests -v`. Build on Windows using `requirements-build.txt` and `python build.py`.
 
-Copyright (C) 2026 griback. Licensed under GNU AGPL version 3 only; see [LICENSE](LICENSE). Provided without warranty. Third-party terms are listed in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Intended public repository: `griback/pdf-anonimator`; see [PUBLICACAO.md](PUBLICACAO.md) for publication status.
+Copyright (C) 2026 griback. Licensed under GNU AGPL version 3 only; see [LICENSE](LICENSE). Provided without warranty. Third-party terms are listed in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Public repository: [griback/pdf-anonimator](https://github.com/griback/pdf-anonimator); see [PUBLICACAO.md](PUBLICACAO.md) for publication status.
