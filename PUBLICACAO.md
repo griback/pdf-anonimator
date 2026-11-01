@@ -7,7 +7,8 @@
 - O usuário confirmou autoria e autorização para publicação pública. Licença livre adotada: **AGPL-3.0-only**; texto integral em `LICENSE`, autoria em `NOTICE`.
 - Não houve envio de código, criação de repositório público ou publicação de release.
 - GitHub CLI (`gh`) não foi encontrado neste ambiente durante a preparação inicial.
-- A consulta via Git não encontrou autenticação disponível; não foi possível confirmar se o destino já existe. Integração GitHub sugerida e aguardando conexão. Não solicitar tokens no chat.
+- A integração GitHub foi instalada, mas suas ferramentas de repositório ainda não estão disponíveis nesta conversa. A nova consulta via Git não encontrou autenticação local; a consulta pública retornou HTTP 404 (repositório inexistente ou privado).
+- Login oficial do Git Credential Manager iniciado; envio depende de o titular concluir a autorização em `https://github.com/login/device`. Não registrar códigos temporários, senhas ou tokens no projeto ou no chat.
 
 ## Antes da primeira publicação
 
